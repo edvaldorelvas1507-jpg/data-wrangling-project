@@ -1,0 +1,12 @@
+# Secretos: nunca subir a GitHub
+.env
+# Datos descargados o generados
+data/raw/*
+data/clean/*
+!data/raw/.gitkeep
+!data/clean/.gitkeep
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
