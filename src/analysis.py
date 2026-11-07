@@ -1,13 +1,13 @@
 """Analisis exploratorio (EDA) y graficos."""
 
 
-def merge_sources(cholera_df, weather_df):
-    """Une colera y clima por pais y anio."""
+def merge_sources(emissions_df, revenue_df):
+    """Une emisiones e ingresos por empresa y anio."""
     # TODO
     pass
 
 
-def plot_rain_vs_cases(df):
-    """Grafico de lluvia frente a casos de colera."""
+def plot_emissions_by_scope(df):
+    """Grafico de emisiones por scope para cada empresa y anio."""
     # TODO
     pass

@@ -1,19 +1,13 @@
-"""Recoger datos: dataset de colera, API de Open-Meteo y (opcional) web scraping."""
+"""Recoger datos: emisiones de Apple, Amazon y Microsoft, ingresos y web scraping."""
 
 
-def load_cholera():
-    """Lee el CSV de colera y devuelve un DataFrame."""
-    # TODO
-    pass
-
-
-def get_weather(latitude, longitude, start_date, end_date):
-    """Pide a Open-Meteo la lluvia diaria de un lugar y devuelve un DataFrame."""
+def load_emissions():
+    """Lee las tablas de emisiones (Excel/CSV) y devuelve un DataFrame."""
     # TODO
     pass
 
 
 def scrape_extra_source():
-    """(Opcional) Tercera fuente con web scraping. Respetar robots.txt."""
+    """Fuente de web scraping (Wikipedia: ingresos de tecnologicas). Respetar robots.txt."""
     # TODO
     pass

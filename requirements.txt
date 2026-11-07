@@ -5,3 +5,5 @@ seaborn
 beautifulsoup4
 python-dotenv
 jupyter
+lxml
+openpyxl
